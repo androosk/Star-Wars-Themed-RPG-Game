@@ -15,43 +15,75 @@
 <body>
 
   <div class="gameContainer">
-      <div>
-        <img class="headerImg" src="assets/images/starwarslogorpg.png" alt="Star Wars RPG">
-      </div>
-    <div class="row no-gutters">
-      <div class="col-sm-1 col-lg-2">
-        <div id="playCard" class="card text-center cardBorder">
-          <div class="card text">Porg</div>
-          <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/porg.jpg" alt="Porg">
-          <div class="card-text">100 hp</div>
-        </div>
-      </div>
-      <div class="col-lg-2">
-        <div id="playCard2" class="card text-center cardBorder">
-          <div class="card text">Chewie</div>
-          <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/chewbacca.png" alt="Chewie">
-          <div class="card-text">150 hp</div>
-        </div>
-      </div>
-      <div class="col-lg-2">
-        <div id="playCard3" class="card text-center cardBorder">
-          <div class="card text">Boba Fett</div>
-          <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/bobafett.jpg" alt="Boba Fett">
-          <div class="card-text">150 hp</div>
-        </div>
-      </div>
-      <div class="col-lg-2">
-        <div id="playCard4" class="card text-center cardBorder">
-          <div class="card text">Yoda</div>
-          <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/yoda.jpg" alt="Yoda">
-          <div class="card-text">150 hp</div>
-        </div>
-      </div>
-    </div>
-    <p id="choiceText">Choose Your Character</p>
-  </div>
 
+    <div id="gameContainer" class="container-fluid">
+      <!-- <div class="row"> -->
 
+        <!-- <div class="col-lg-8"> -->
+
+      <img src="assets/images/starwarslogorpg.png" alt="Star Wars RPG">
+      <p id="choiceText"></p>
+      <div class="row no-gutters">
+        <div class="col-2">
+          <div id="playCard1" class="card text-center cardBorder">
+            <div class="card-text">Porg</div>
+            <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/porg.jpg" alt="Porg">
+            <div class="card-text">100 hp</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="playCard2" class="card text-center cardBorder">
+            <div class="card-text">Chewie</div>
+            <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/chewbacca.png" alt="Chewie">
+            <div class="card-text">150 hp</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="playCard3" class="card text-center cardBorder">
+            <div class="card-text">Boba Fett</div>
+            <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/bobafett.jpg" alt="Boba Fett">
+            <div class="card-text">150 hp</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="playCard4" class="card text-center cardBorder">
+            <div class="card-text">Yoda</div>
+            <img class="card-img-bottom" style="padding-left: 10px; padding-right: 10px" src="assets/images/yoda.jpg" alt="Yoda">
+            <div class="card-text">150 hp</div>
+          </div>
+        </div>
+      </div> <!--End of Character Row-->
+
+      <div class="row"> <!--Parent Row-->
+        <div class="col-3">
+          <p class="text-white">Some text</p>
+
+          <div class="row"> <!--Player Card Child Row-->
+            <div class="col-9">
+              <div id="cardPl-background" class="card card2 bg-dark text-center">
+                <div id="player-character"></div>
+                <img id="player-image">
+                <div id="player-hp"></div>
+              </div>
+
+                <div class="row">
+                  <div class="col-12">
+                    <div id="cardOp-background" class="card card2 bg-dark text-center">
+                      <div id="opponent-character"></div>
+                      <img id="opponent-image">
+                      <div id="opponent-hp"></div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="imageCard" class="col-4"></div>
+      </div>
+    </div>  <!--End of Container Fluid Div-->
+  </div> <!-- End of Game Container Div-->
 
 
 
