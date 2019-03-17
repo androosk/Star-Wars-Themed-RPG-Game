@@ -219,6 +219,7 @@
       $(".button").remove()
       $("#action-button").append("<button class='button'>RESTART</button")
       $("#choiceText").text("YOUR CHARACTER HAS DIED. PLEASE PRESS THE RESTART BUTTON TO PLAY AGAIN.")
+      stopGameAudio()
       playAudioEnd()
       playerChar.playState = "deceased"
     }
@@ -238,7 +239,7 @@
         $("#action-button").append("<button class='button'>RESTART</button>")
         $("#choiceText").text("CONGRATULATIONS! YOU HAVE DEFEATED ALL YOUR OPPONENTS! PRESS RESTART TO PLAY AGAIN")
         stopGameAudio()
-        audioEnd.play()
+        playAudioEnd()
         inPLay = false
       }
     }
