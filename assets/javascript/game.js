@@ -10,8 +10,8 @@
   var porgSound = new Audio("assets/sounds/porgsound.wav")
   var yodaSound = new Audio("assets/sounds/clash clash twirl.mp3")
   var chewieSound = new Audio("assets/sounds/roar.wav")
-  var bobaFettSound = new Audio("assets/sounds/ASYUWISH.wav")
-  var blasterSound = new Audio("assets/sounds/LAZER.wav")
+  var bobaFettSound = new Audio("assets/sounds/ASYUWISH.WAV")
+  var blasterSound = new Audio("assets/sounds/LAZER.WAV")
   var yodaVoice = new Audio("assets/sounds/strongam.wav")
   var porg = {
       charName : "Porg",
