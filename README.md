@@ -1,5 +1,5 @@
-# unit-4-game
-## Star Wars Themed Combat RPG
+
+# Star Wars Themed Combat RPG
 
 ## Gameplay
   1. Choose a character from four possible selections
